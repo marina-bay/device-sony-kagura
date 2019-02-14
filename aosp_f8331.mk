@@ -24,3 +24,5 @@ PRODUCT_DEVICE := kagura
 PRODUCT_MODEL := Xperia XZ (AOSP)
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
+
+$(call inherit-product, device/sony/common/sailfish.mk)
